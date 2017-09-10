@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc LearningErlang top level supervisor.
+%% @doc learning_erlang top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(LearningErlang_sup).
+-module(learning_erlang_sup).
 
 -behaviour(supervisor).
 

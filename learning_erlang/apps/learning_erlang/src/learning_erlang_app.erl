@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc LearningErlang public API
+%% @doc learning_erlang public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(LearningErlang_app).
+-module(learning_erlang_app).
 
 -behaviour(application).
 
@@ -15,7 +15,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    LearningErlang_sup:start_link().
+    learning_erlang_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->
